@@ -1,0 +1,15 @@
+{
+  "name": "desafio_teste_domino",
+  "version": "1.0.0",
+  "description": "Desafio de testes - Dominó para 2 jogadores (JavaScript testando JavaScript)",
+  "type": "module",
+  "main": "lib/domino.mjs",
+  "scripts": {
+    "test": "node --test",
+    "test:unit": "node --test \"tests/unit/**/*.test.mjs\"",
+    "test:integration": "node --test \"tests/integration/**/*.test.mjs\""
+  },
+  "engines": { "node": ">=20" },
+  "author": "Matheus De Oliveira Mascarello",
+  "license": "MIT"
+}
